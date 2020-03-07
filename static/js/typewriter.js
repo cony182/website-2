@@ -18,7 +18,7 @@ var TxtType = function(el, toRotate, period) {
         this.txt = fullTxt.substring(0, this.txt.length + 1);
         }
 
-        this.el.innerHTML = '<span class="wrap" style="font-size: 40pt; color: white;">'+this.txt+'</span>';
+        this.el.innerHTML = '<span class="wrap" style="font-size: 30pt; color: white;">'+this.txt+'</span>';
 
         var that = this;
         var delta = 200 - Math.random() * 100;
